@@ -1,13 +1,15 @@
 package com.mycompany.coin.tosser;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+
+    public static void main( String[] args ) {
+
+        if (Math.random() < 0.5) {
+            System.out.println("Heads");
+        } else {
+            System.out.println("Tails");
+        }
+
     }
+
 }
