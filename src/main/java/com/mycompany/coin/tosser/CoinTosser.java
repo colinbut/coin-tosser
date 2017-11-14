@@ -1,6 +1,6 @@
 package com.mycompany.coin.tosser;
 
-public class App {
+public class CoinTosser {
 
     public static void main(String[] args) {
 
